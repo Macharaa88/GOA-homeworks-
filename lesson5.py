@@ -1,0 +1,45 @@
+#2)
+age=int(input("შეიყვანეთ თქვენი ასაკი: "))
+if(age>=18):
+    print(" თქვენ ხართ სრულწლოვანი")
+else:
+    print("თქვენ არ ხართ სრულწლოვანი")
+
+#3)
+num1=int(input("შეიყვანეთ პირველი რიცხვი: "))
+num2=float(input("შეიყვანეთ მეორე რიცხვი: "))
+print("num1 <= num2:", num1 <= num2 )
+
+#4)
+first_name = input("შეიყვანეთ თქვენი სახელი: ")
+age2 = int(input("შეიყვანეთ თქვენი ასაკი: "))
+height = float(input("შეიყვანეთ თქვენი სიმაღლე: "))
+print ("სახელი:", bool(first_name))
+print ("არის 16 წლის ან მეტის:", bool(age2 >= 16))
+print ("სიმაღლე მეტია 1.70 მეტრზე:", bool(height > 1.70))
+
+#5)
+a = int(input("შეიყვანეთ პირველი რიცხვი: "))
+b = int(input("შეიყვანეთ მეორე რიცხვი: "))
+c = int(input("შეიყვანეთ მესამე რიცხვი: "))
+
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
+print(a >= b)
+print(a <= b)
+
+print(a > c)
+print(a < c)
+print(a == c)
+print(a != c)
+print(a >= c)
+print(a <= c)
+
+print(b > c)
+print(b < c)
+print(b == c)
+print(b != c)
+print(b >= c)
+print(b <= c)
